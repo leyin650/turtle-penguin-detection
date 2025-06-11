@@ -18,6 +18,16 @@ This project implements image classification and object detection for penguins a
 - See requirements.txt for other dependencies
 
 ## File Structure
+- `self-built models/`: Custom implemented models
+  - `ClassifyModel.py`: Custom classification network
+  - `ClassificationTest.py`: Testing script for classification
+  - `ClassificationTrain.py`: Training script for classification
+  - `DetectionModel.py`: Custom detection network
+  - `DetectionTest.py`: Testing script for detection
+  - `DetectionTrain.py`: Training script for detection
+  - `load_datasets.py`: Dataset loading utilities
+  - `readme.txt`: Instructions for model usage
+  
 - `resnet50.ipynb`: ResNet50 model implementation
 - `DenseNet121.ipynb`: DenseNet121 model implementation
 - `9517classification mobilenet.ipynb`: MobileNet classifier
